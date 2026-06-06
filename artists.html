@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Artist - Ceramics</title>
+
+<style>
+
+/* ===== RESET ===== */
+html, body{
+    margin:0;
+    padding:0;
+    font-family:Arial, sans-serif;
+    background:#f8f6f1;
+    color:#8b7500;
+    scroll-behavior:smooth;
+}
+
+/* ===== HEADER ===== */
+
+.header{
+    padding:18px 40px;
+    border-bottom:2px solid #d4af37;
+    background:#f8f6f1;
+}
+
+.header h1{
+    margin:0;
+    font-size:38px;
+    color:#c9a227;
+    letter-spacing:2px;
+}
+
+/* ===== ARTIST SECTION ===== */
+
+.artist{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    padding:30px 40px;
+}
+
+.artist img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #d4af37;
+}
+
+.artist p{
+    max-width:750px;
+    line-height:1.7;
+    margin:0;
+}
+
+/* ===== PHILOSOPHY ===== */
+
+.philosophy{
+    margin:10px 40px;
+    padding:25px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    line-height:1.8;
+}
+
+.philosophy h2{
+    margin:0 0 10px 0;
+    color:#c9a227;
+}
+
+/* ===== STYLE SECTION ===== */
+
+.styles{
+    padding:30px 40px;
+}
+
+.styles h2{
+    margin-bottom:15px;
+    color:#c9a227;
+}
+
+/* ===== STYLE VIDEO CARDS ===== */
+
+.style-grid{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+}
+
+.style-card{
+    width:210px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 3px 10px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.style-card:hover{
+    transform:scale(1.05);
+}
+
+.style-card video{
+    width:100%;
+    height:130px;
+    object-fit:cover;
+}
+
+.style-card p{
+    margin:0;
+    padding:10px;
+    text-align:center;
+    font-size:13px;
+}
+
+/* ===== QUOTE ===== */
+
+.quote{
+    text-align:center;
+    margin:30px 20px;
+    font-style:italic;
+    font-size:17px;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:2px solid #d4af37;
+    color:#b8860b;
+}
+
+/* ===== BACK TO TOP BUTTON ===== */
+
+.top-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#c9a227;
+    color:white;
+    padding:12px 15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:18px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+    transition:0.3s;
+}
+
+.top-btn:hover{
+    transform:scale(1.1);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<div class="header">
+    <h1>THE ARTIST</h1>
+</div>
+
+<!-- ARTIST -->
+
+<div class="artist">
+
+    <img src="https://i.pinimg.com/1200x/80/cc/5f/80cc5fce5a6667edad029dee0615f557.jpg">
+
+    <p>
+        I am a ceramic artist who explores clay through emotion, texture, and natural form.
+        My work focuses on imperfection, simplicity, and handmade expression.
+    </p>
+
+</div>
+
+<!-- PHILOSOPHY -->
+
+<div class="philosophy">
+
+<h2>Philosophy</h2>
+
+<p>
+Clay is not forced, it is guided. Every shape carries movement, emotion, and time.
+I believe ceramics should feel alive, not perfect. Each piece becomes its own identity.
+</p>
+
+</div>
+
+<!-- STYLE SECTION -->
+
+<div class="styles">
+
+<h2>Artistic Styles</h2>
+
+<div class="style-grid">
+
+<div class="style-card">
+    <video autoplay muted loop>
+        <source src="https://v1.pinimg.com/videos/mc/720p/7f/b0/b6/7fb0b65a69df4e8ad868ff2ef636a5a6.mp4">
+    </video>
+    <p>Minimal Clay Form</p>
+</div>
+
+<div class="style-card">
+    <video autoplay muted loop>
+        <source src="https://v1.pinimg.com/videos/iht/expMp4/cb/56/f5/cb56f5ba89c6a0db01cad055bc3b46e1_720w.mp4">
+    </video>
+    <p>Hand-Thrown Pottery</p>
+</div>
+
+<div class="style-card">
+    <video autoplay muted loop>
+        <source src="https://v1.pinimg.com/videos/mc/720p/9d/da/a2/9ddaa2197e21deb2f05546e627683cc8.mp4">
+    </video>
+    <p>Organic Texture</p>
+</div>
+
+<div class="style-card">
+    <video autoplay muted loop>
+        <source src="https://v1.pinimg.com/videos/iht/expMp4/6c/76/2f/6c762fd116ea6f25a2b16d3dc0012b39_720w.mp4">
+    </video>
+    <p>Modern Ceramic Art</p>
+</div>
+
+</div>
+
+</div>
+
+<!-- QUOTE -->
+
+<div class="quote">
+    “Art is discovered, it can never be made”
+</div>
+
+<!-- FOOTER -->
+
+<footer>
+© 2026 CERAMICS - Artist Page
+</footer>
+
+<!-- BACK TO TOP -->
+
+<a href="" class="top-btn">^</a>
+
+</body>
+
+</html>
